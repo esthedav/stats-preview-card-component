@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The solution to the challenge stat preview card component of Frontend mentor">
+  <meta name="keywords" content="CSS, HTML">
+  <meta name="author" content="Esthedav">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="./images/akatsuky_logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="./style.css">
+  <title>Stats preview card component</title>
+</head>
+<body>
+  <main class="main">
+    <h1 class="main-h1">Stats preview card component</h1>
+    <article class="card">
+      <div class="card__description">
+        <h2 class="card__description__title">Get <span class="card__description__title__span">insights</span> that help your business grow.</h2>
+        <p class="card__description__paragraph">Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.</p>
+        <div class="card__description__stats">
+          <div class="card__description__stats__container card__description__stats--companies">
+            <h2 class="card__description__stats__container__number">10k+</h2>
+            <p class="card__description__stats__container__header">companies</p>
+          </div>
+          <div class="card__description__stats__container card__description__stats--templates">
+            <h2 class="card__description__stats__container__number">314+</h2>
+            <p class="card__description__stats__container__header">templates</p>
+          </div>
+          <div class="card__description__stats__container card__description__stats--queries">
+            <h2 class="card__description__stats__container__number">12m+</h2>
+            <p class="card__description__stats__container__header">queries</p>
+          </div>
+        </div>
+      </div>
+      <picture class="card__hero">
+        <source srcset="./images/image-header-desktop.jpg" media="(min-width:1130px)">
+        <img src="./images/image-header-mobile.jpg" alt="A photo of three women working" class="card__hero__img">
+      </picture>
+    </article>
+  </main>
+  
+</body>
+</html>
